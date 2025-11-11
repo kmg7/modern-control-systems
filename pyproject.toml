@@ -6,8 +6,10 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "control>=0.10.2",
+    "jupyterlab>=4.4.10",
     "matplotlib>=3.10.7",
     "numpy>=2.3.4",
     "scipy>=1.16.3",
     "slycot>=0.6.0",
+    "sympy>=1.14.0",
 ]
