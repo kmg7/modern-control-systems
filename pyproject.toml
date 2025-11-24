@@ -13,3 +13,15 @@ dependencies = [
     "slycot>=0.6.0",
     "sympy>=1.14.0",
 ]
+
+[project.scripts]
+lab = "jupyter_runner:run_lab"
+
+[tool.setuptools]
+py-modules = ["jupyter_runner"]
+
+[tool.uv]
+package = true
+
+[dependency-groups]
+dev = []
