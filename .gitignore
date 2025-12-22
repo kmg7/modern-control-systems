@@ -1,3 +1,49 @@
+# MATLAB autosave and backup files
+*.asv
+*.m~
+*.autosave
+
+# MATLAB generated files
+*.mex*
+*.p
+*.slxc
+*.slx.bak
+*.mdl.bak
+*.acc
+*.sbr
+
+# Simulink cache and code generation
+slprj/
+codegen/
+*.rtw
+*.grt
+*.tlc
+
+# MATLAB Live Editor
+*.mlx.autosave
+*.mldatx
+.mlx~
+
+# Figures and exports (optional – remove if you track outputs)
+# *.fig
+# *.png
+# *.jpg
+# *.jpeg
+# *.pdf
+# *.svg
+
+# MATLAB project files (optional)
+# *.prj
+# *.prj.user
+
+# MATLAB path and settings
+pathdef.m
+.matlab/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
